@@ -1,0 +1,100 @@
+/* LOGIN */
+.login-container {
+    /* border: 1px solid red; */
+    margin-top: 75px;
+    /* text-align: center; */
+    font-family: 'Noto Sans SC';
+}
+
+.login-container .header {
+    margin-bottom: 6px;
+}
+
+.login-container .header span {
+    font-family: 'Trirong';
+    letter-spacing: 0.05rem;
+}
+
+.login-container button {
+    width: 100%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Cinzel';
+    letter-spacing: 0.05rem;
+    background: #0067a6;
+    border: none;
+}
+
+.login-container button:hover, .login-container button:focus{
+    background: #0067a6;
+    border: none;
+}
+
+.login-container .ant-form .ant-form-item .ant-input-affix-wrapper{
+    border-radius: 5px;
+}
+
+.login-container .ant-form .ant-form-item:nth-child(3) {
+    text-align: center; /*To centralize the bottom text*/
+}
+
+/*Error message display*/
+.authentication-error-container {
+    /* border: 1px solid green; */
+    border-left: 5px solid #d82e46;
+    background: #fefefe;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    height: 42px;
+}
+
+.authentication-error-container .ant-col h4 {
+    margin-top: 9px;
+    font-family: 'Noto Sans SC';
+}
+
+.authentication-error-container .ant-col .icon {
+    font-size: 20px;
+    color: #d82e46;
+    margin-top: 10px;
+}
+
+/* REGISTER */
+.register-container {
+    /* border: 1px solid black; */
+    width: 25%;
+    margin-top: 50px;
+}
+
+.register-container .header {
+    margin-bottom: 6px;
+}
+
+.register-container .header span {
+    font-family: 'Trirong';
+    letter-spacing: 0.05rem;
+}
+
+.register-container .ant-form-item input {
+    font-family: 'Noto Sans SC';
+}
+
+.register-container .ant-form .ant-form-item .ant-input-affix-wrapper{
+    border-radius: 5px;
+}
+
+.register-container button {
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Cinzel';
+    letter-spacing: 0.1rem;
+    background: green;
+    border: none;
+    color: white;
+}
+
+.register-container button:hover, .register-container button:focus {
+    background: green;
+    border: none; 
+    color: white;
+}

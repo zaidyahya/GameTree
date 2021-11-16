@@ -1,0 +1,824 @@
+@import 'https://fonts.googleapis.com/css2?family=Cinzel&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Trirong:wght@300&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Work+Sans&display=swap';
+
+.layout {
+    /* border: 10px solid black; */
+}
+
+html, body {
+    /* height: 100%; */
+}
+
+.content {
+    background-image: url(../images/white-waves.png);
+    min-height: 88vh;
+    /* border: 1px solid black; */
+}
+
+.header-background {
+    /* background: none; */
+    background-image: url(../images/pink-dust.png);
+    /* border: 1px solid yellow; */
+    height: 100px;
+}
+
+.ant-breadcrumb span {
+    color: white;
+}
+
+.ant-col {
+    /* border: 1px solid green; */
+}
+
+.ant-modal-footer {
+    /* text-align: center; */
+}
+
+.error-message {
+    color: #ff4d4d;
+}
+
+/* NAVBAR */
+.nav-container {
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    /* height: 50px; */
+}
+
+.nav-container .logo {
+    /* border: 1px solid grey; */
+    /* background: lightgrey; */
+    background-image: url(../images/Bell.png);
+    background-position: center;
+    background-size: cover;
+    width: 225px;
+    height: 75px;
+}
+
+.nav-container .header-container {
+    /* border: 1px solid black; */
+    margin-left: 282px;
+    line-height: normal;
+}
+
+.nav-container .header-container h1 {
+    /* border: 1px solid red; */
+    letter-spacing: 0.10rem;
+    /* text-transform: uppercase; */
+    font-size: 24px;
+    font-weight: 200;
+    color: lightgray;
+    margin-top: 45px;
+    font-family: 'Cinzel';
+}
+
+.nav-container .logout-bar-container {
+    /* border: 1px solid red; */
+    /* height: 75px;  */
+    /* margin-top: 30px; */
+    /* text-align: center; */
+}
+
+.nav-container .logout-bar-container .logout-bar {
+    /* border: 1px solid yellow; */
+    line-height: normal;
+    margin-top: 55px;
+}
+
+.logout-bar .divider {
+    font-weight: 500;
+}
+
+.toggle-wrapper {
+    font-size: 14px;  
+    font-style: 'Work Sans';  
+    /* border: 1px solid red; */
+    margin-top: -2px;
+}
+
+.toggle-wrapper .toggle-header .name {
+    padding-top: 3px;
+    font-weight: 400;
+    letter-spacing: 0.035rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #f2f2f2;
+    opacity: 0.6;
+    /* border: 1px solid red; */
+}
+
+.toggle-wrapper .toggle-header .chevy {
+    color: lightgray;
+    padding-top: 3px;
+}
+
+.toggle-wrapper .toggle-list {
+    /* border: 1px solid red;  */
+    cursor: pointer;
+    background-image: url(../images/white-waves.png);
+    border-radius: 6px;
+    box-shadow: 0 10px 14px rgba(0,0,0,.15), 0 15px 12px rgba(0,0,0,0.12);
+}
+
+.toggle-wrapper .toggle-list li {
+    list-style-type: none;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-left: -14px;
+    /* padding-right: 25px; */
+    height: 40px;
+    font-weight: 500;
+}
+
+.toggle-wrapper .toggle-list li:hover {
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.icon-chevron{
+    -webkit-transition: transform .4s; /* Safari */
+    transition: transform .4s;
+}
+
+.icon-chevron.down{
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+
+/* LOBBIES */
+.lobbies-container {
+    width: 75%;
+    margin: 0px auto;
+}
+
+.lobs-header-container {
+    /* border: 1px solid black; */
+    /* background: lightgrey; */
+}
+
+.lobs-header-container h1 {
+    /* border: 1px solid red; */
+    width: 85%;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: 'Cinzel';
+    font-size: 25px;
+
+}
+
+.lobs-header-container .ant-btn {
+    /* border: 5px solid black; */
+    font-family: 'Cinzel';
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    color: black;
+}
+
+.lobs-list-header {
+    /* border: 1px solid red; */
+}
+
+.lobs-list-header .item {
+    font-family: 'Trirong';
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.lobs-list-container {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.lobs-list {
+    margin-top: 15px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.lobs-list .item {
+    border-bottom: 2px solid white;
+    font-family: 'Noto Sans SC';
+    cursor: pointer;
+}
+
+.lobs-btn-container {
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    float: right;
+    font-family: 'Cinzel';
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+
+.lobs-btn-container .ant-btn:nth-child(1) {
+    margin-right: 25px;
+    background: #64a4d9;
+    /* background: #d8e2ed; */
+    color: white;
+    border: none;
+}
+
+.lobs-btn-container .ant-btn:nth-child(2) {
+    background: #80cf9a;
+    color: white;
+    border: none;
+
+}
+
+/* CREATE LOBBY */
+.ant-modal-content {
+    border-radius: 6px;
+    /* background: wheat; */
+    margin-top: 10px;
+}
+
+.ant-modal-header {
+    background-image: url(../images/ep_naturalwhite.png);
+}
+
+.ant-modal-title {
+    font-family: 'Cinzel';
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+.ant-modal-body {
+    /* border: 1px solid red; */
+    background-image: url(../images/Sports.png);
+}
+
+.ant-modal-body .create-row {
+    font-family: 'Trirong';
+}
+
+.ant-modal-body h4 {
+    /* font-family: 'Trirong'; */
+    /* text-transform: uppercase; */
+    letter-spacing: 0.05rem;
+}
+
+.ant-modal-body input {
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    font-family: 'Trirong';
+
+}
+
+.ant-modal-footer {
+    background-image: url(../images/ep_naturalwhite.png);
+    text-align: center;
+}
+
+.ant-modal-footer button {
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-family: 'Trirong';
+    letter-spacing: 0.05rem;
+    border: none;
+}
+
+.ant-modal-footer button:nth-child(1){
+    /* border: 1px solid red; */
+    margin-right: 50px;
+
+}
+
+.ant-modal-footer button:nth-child(2){
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    background: #80cf9a;
+}
+
+/*REJOIN CONFIRMATION DIALOG*/
+.ant-modal-confirm-body {
+    font-family: Verdana, sans-serif;
+}
+
+.ant-modal-confirm-btns button{
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-family: 'Trirong';
+    letter-spacing: 0.05rem;
+    border: none;
+}
+
+.ant-modal-confirm-btns button:nth-child(2){
+    background: #80cf9a;
+}
+
+/* LOBBY */
+.lobby-container{
+    /* border: 1px solid red; */
+    width: 65%;
+    margin: 0px auto;
+}
+
+.lo-header{
+    /* border: 1px solid black; */
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: 'Cinzel';
+    font-size: 22px;
+    width: 90%;
+    display: inline-block;
+}
+
+.lo-back-btn {
+    margin: 0px auto;
+    /* border: 1px solid red; */
+    display: inline-block !important;
+    background: #D7DDE8;
+    border: none;
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-family: 'Trirong';
+    color: lightslategrey;
+    letter-spacing: 0.05rem;
+}
+
+.lo-back-btn:hover {
+    background: #D7DDE8;
+    color: whitesmoke;
+    opacity: 1.0;
+}
+
+.lo-list-header {
+}
+
+.lo-list-header .item {
+    font-family: 'Trirong';
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    /* border: 1px solid red;  */
+}
+
+.lo-list-header .item p {
+    /* border: 1px solid red;  */
+    margin: auto; 
+}
+
+.lo-list-header .item:nth-child(1) p{
+    padding-left: 10px;
+}
+
+.lo-list-header .item:nth-child(2) p{
+    padding-right: 10px;
+    float: right;
+}
+
+.lo-list {
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    max-height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.lo-list .item {
+    /* border: 1px solid red; */
+    /* background: wheat; */
+    /* opacity: 0.6; */
+    border-bottom: 2px solid white;
+    font-family: 'Noto Sans SC';
+}
+
+.lo-list .item .host {
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+
+.lo-list .item .rank {
+    /* border: 1px solid green; */
+}
+
+.lo-list .item .level {
+    /* border: 1px solid blue; */
+}
+
+.lo-list .item .rank span:nth-child(2){
+    /* border: 1px solid red; */
+    margin-left: 6px;
+}
+
+.lo-list .item .level span:nth-child(2){
+    margin-left: 10px;
+}
+
+.lo-start-game {
+    /* border: 1px solid red; */
+    /* background: grey; */
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Trirong';
+    letter-spacing: 0.05rem;
+    font-size: 14px;
+}
+
+.lo-start-game .ant-btn {
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Trirong';
+    letter-spacing: 0.1rem;
+    background: #80cf9a;
+}
+
+.lo-start-game p {
+    margin: auto;
+}
+
+.lo-start-game p span {
+    display: inline-block;
+}
+
+.lo-start-game .fix span {
+    display: inline-block;
+}
+
+.lo-start-game .fix span:nth-child(2){
+    margin-left: 10px;
+}
+
+.lo-start-game p span:nth-child(2){
+    margin-left: 10px;
+}
+
+/* LEADERBOARD */ 
+.leaderboard-container {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0px auto;
+}
+
+.le-header-container {
+    text-align: center;
+}
+
+.le-header-container h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: 'Cinzel';
+    font-size: 25px;
+}
+
+.le-list {
+    /* border: 1px solid red; */
+    margin-top: 5px;
+    font-family: 'Noto Sans SC';
+    letter-spacing: 0.035rem;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.le-list .item {
+    border-bottom: 2px solid white;
+}
+
+.le-list .item .ant-col {
+    text-align: center;
+}
+
+.le-list .item .ant-col:nth-child(5){
+    text-transform: uppercase;
+    letter-spacing: 0.085rem;
+}
+
+/* CHAT */
+.chat-container {
+    /* border: 1px solid red; */
+    position: fixed;
+    width: 19%;
+    bottom: 0%;
+    /* left: 0; */
+    left: 72%;
+}
+
+.chat-window {
+    /* border: 1px solid blue; */
+    /* height: 275px; */
+    height: 300px;
+    width: 100%;
+    /* width: 15%; */
+    /* border-radius: 5px; */
+    /* position: sticky; */
+}
+
+.chat-window .header {
+    /* border: 1px solid red; */
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-window .header .game-name {
+    /* border: 1px solid red; */
+    width: 69%;
+    float: left;
+}
+
+.chat-window .header .game-name span:nth-child(1){
+    /* border: 1px solid green; */
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+
+.chat-window .header .game-name span:nth-child(2){
+    /* border: 1px solid blue; */
+    width: 85%;
+    float: right;
+    /* font-weight: 500; */
+}
+
+.chat-window .header .game-status {
+    /* border: 1px solid red; */
+    width: 31%;
+    float: right;
+}
+
+.chat-window .header .game-status span:nth-child(1){
+    /* border: 1px solid green; */
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.chat-window .header .game-status span:nth-child(2){
+    /* border: 1px solid blue; */
+    width: 75%;
+    float: right;
+    font-size: 11px;
+    margin-top: 2px;
+    text-align: center;
+    font-family: 'Noto Sans SC';
+
+}
+
+.chat-window .messages {
+    /* border: 1px solid purple; */
+    background: white;
+    height: 240px; 
+    overflow-y: scroll;
+}
+
+.chat-window .messages .message {
+    /* border: 1px solid red; */
+    /* background: lightgray; */
+    border-radius: 6px;
+    /* word-wrap: break-word; */
+    margin-top: 5px;
+    min-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.chat-window .messages .message span:nth-child(1){
+    /* border: 1px solid green; */
+    min-width: 25%;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+.chat-window .messages .message span:nth-child(2){
+    /* border: 1px solid blue; */
+    margin-left: 3px;
+    width: 61%;
+    float: right;
+    hyphens: auto;
+    word-break: break-word;
+}
+
+.chat-window .messages .ant-row:last-child{
+    margin-bottom: 5px; /*Space between the last message and the text input*/
+}
+
+.chat-window .send-area {
+    border-top: 1px solid gray;
+    height: 30px;
+}
+
+.chat-window .send-area span {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.chat-click {
+    /* border: 1px solid green; */
+    background: lightblue;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+}
+
+.chat-click span {
+    /* border: 1px solid green; */
+    font-family: 'Noto Sans SC';
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+}
+
+/* GAME */
+.in-game {
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: 0px auto;
+}
+
+.in-game .header-container {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.in-game .header-container h1 {
+    /* border: 1px solid black; */
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: 'Cinzel';
+    font-size: 24px;
+}
+
+.in-game .header-container .ant-btn {
+    /* border: 1px solid blue; */
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    background: #D7DDE8;
+    border: none;
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-family: 'Trirong';
+    color: lightslategrey;
+    letter-spacing: 0.05rem;
+}
+
+/* PLAYER */
+.player-row-margin {
+    margin-top: 10px;
+}
+
+.test-flex {
+    /* border: 1px solid blue; */
+    /* justify-content: center !important; */
+}
+
+.player-name{
+    /* margin-top: 6px; */
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    text-align: left;
+    /* text-transform: uppercase; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.player-disputes-count {
+    /* border: 1px solid red; */
+    display: block;
+    font-family: 'Cinzel';
+    font-size: 7px;  
+}
+
+.lines {
+    width: 50%;
+}
+
+.lines.top {
+    border-top: 1px solid lightslategray;
+}
+
+.lines.bottom {
+    border-bottom: 1px solid lightslategray;
+}
+
+.lines.right {
+    border-left: 1px solid lightslategray;
+    float: right;
+}
+
+.lines.left {
+    border-right: 1px solid lightslategray;
+    float: left;
+}
+
+.transition-test {
+    transition: background-color 1s ease-in-out, border 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+/* FINAL */
+.final-container {
+    /* border: 1px solid purple; */
+} 
+
+.final-header {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.final-header h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.35rem;
+    font-family: 'Cinzel';
+    font-size: 24px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.final-content-container {
+    /* border: 1px solid red; */
+    /* margin-top: 75px; */
+}
+
+.final-player-name {
+    margin-top: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    /* border: 1px solid red; */
+    font-size: 18px;
+    font-family: 'Cinzel';
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.trophy {
+    background-image: url(../images/wc.png);
+    background-position: center;
+    background-size: cover;
+    /* border: 1px solid green; */
+    height: 220px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+/* .final-image-container {
+} */
+
+.final-image-container img {
+    height: 150px;
+}
+
+
+/*WINNER MODAL*/
+.gif {
+    width: 200px;
+    height: 200px;
+}
+
+.winner-modal .gif-container {
+    text-align: center;
+}
+
+.winner-modal .header-container {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.winner-modal .header-container h1 {
+    font-family: 'Cinzel';
+    font-size: 23px;
+}
+
+.winner-modal .header-container p {
+    font-family: 'Trirong';
+    font-size: 20px;
+}
+
+/* ReactTour */
+.tour-modal {
+    border: 3px solid lightgray;
+    background-image: url(../images/white-waves.png);
+}
+
+[data-tour-elem="controls"] {
+    justify-content: center;
+}

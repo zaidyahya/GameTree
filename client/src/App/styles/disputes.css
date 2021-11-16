@@ -1,0 +1,43 @@
+.disputes-container {
+    /* border: 1px solid green; */
+    position: fixed;    
+    width: 23%;
+    bottom: 0%;
+    left: 48%;
+}
+
+.disputes-window {
+    height: 300px;
+    width: 100%;
+}
+
+.disputes {
+    /* border: 1px solid red; */
+    border-radius: 6px;
+    background: white;
+    height: 300px;
+
+}
+
+.disputes .header {
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.disputes .arrow {
+    color: gray;
+    cursor: pointer;
+    margin-left: -12px;
+}
+
+.disputes .dispute {
+    /* border: 1px solid red; */
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+

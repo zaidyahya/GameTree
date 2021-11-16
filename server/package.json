@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "Zaid Yahya",
+  "license": "MIT",
+  "dependencies": {
+    "connect-redis": "^4.0.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "ioredis": "^4.17.3",
+    "mongoose": "^5.9.20",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
